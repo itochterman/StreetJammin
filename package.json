@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/itochterman/StreetJammin#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "file:node_modules/express",
+    "express-generator": "^4.16.0"
   }
 }
