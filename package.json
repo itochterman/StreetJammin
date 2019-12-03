@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/itochterman/StreetJammin/issues"
   },
-  "homepage": "https://github.com/itochterman/StreetJammin#readme"
+  "homepage": "https://github.com/itochterman/StreetJammin#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
