@@ -1,0 +1,33 @@
+{{#if user}}
+<div class="container">
+  <div class="intro">
+    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+      <h2 class="section-heading mb-4">
+        <span class="section-heading-lower">Welcome back {{user.username}}</span>
+      </h2>
+      <p class="mb-3">
+      </p>
+    </div>
+  </div>
+</div>
+{{else}}
+<div class="container">
+  <div class="intro">
+    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+    <div class="intro-text left-0 text-center bg-faded p-5 rounded">
+      <h2 class="section-heading mb-4">
+        <span class="section-heading-upper">Street Music</span>
+        <span class="section-heading-lower">Create, share, discover tunes.</span>
+      </h2>
+      <p class="mb-3">
+      </p>
+      <div class="intro-button mx-auto">
+        <a class="btn btn-primary btn-xl" href="register">Register</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{/if}}

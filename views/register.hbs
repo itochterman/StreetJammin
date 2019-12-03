@@ -1,0 +1,33 @@
+<section class="page-section about-heading">
+  <div class="container">
+  </br></br></br>
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              {{#if message}}
+              <span class="section-heading-upper">{{ message }}</span>
+              {{/if}}
+              <span class="section-heading-lower">Register</span>
+            </h2>
+            <div class="lead">
+              <div id="errorReg"></div>
+              <form method="POST" action="register">
+                <div>
+                  <label for="username">Username:</label>
+                  <input id="regUsername" type="text" name="username" value="">
+                </div>
+                <div>
+                  <label for="password">Password:</label>
+                  <input id="regUsername" type="password" name="password" value="">
+                </div>
+                <div><input  id="reg" class="btn btn-lg btn-default" type="submit" value="Register"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
